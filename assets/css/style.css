@@ -1,0 +1,79 @@
+/* Reseting css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar area star */
+header{
+    background-color: #2C3E50;
+    padding: 24px 0;
+}
+
+header .container{
+    width: 70%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo{
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .container .nav-items ul{
+    display: flex;
+}
+
+header .container .nav-items ul li{
+    padding: 16px;
+    list-style: none;
+}
+
+header .container .nav-items ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+header .container .nav-items ul li a:hover{
+    color: #1abc9c;
+}
+
+/* Navbar area end */
+
+/* Banner start */
+.banner{
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    
+}
+.banner .all{
+    text-align: center;
+    /* width: 20%;
+    margin: auto; */
+    margin-top: 5%;
+}
+.banner .all .avatar{
+    width: 240px;
+    margin: auto;
+}
+.banner .all .title h1{
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner .all span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+/* Banner end */
